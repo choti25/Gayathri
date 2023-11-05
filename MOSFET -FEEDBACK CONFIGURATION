@@ -1,0 +1,8 @@
+a=int(input("Enter VGS:"))
+b=int(input("Enter VDS:"))
+c=int (input("Enter VDD:"))
+d=int(input("Enter ID: "))
+e =int (input("Enter RD:"))
+VGS=VDS
+VGS= VDD - (ID*RD)
+print ("The value of VGS is :",VGS)
