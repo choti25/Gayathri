@@ -1,0 +1,15 @@
+a= int (input("Enter VG:"))
+b= int(input("Enter VDD:"))
+c=int(input("Enter ID:"))
+d=int(input("Enter RD:"))
+e=int(input("Enter RS:"))
+f=int(input("Enter R1:"))
+g=int (input("Enter R2:"))
+
+VG =(g*b)/(f+g)
+print("The value of VG is:", VG)
+
+VGS = a-IS*e
+
+VDS= b-(c*(d+e))
+print("The Value of VDS is :", VDS )
