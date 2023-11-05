@@ -1,0 +1,20 @@
+a=int(input("Enter Vcc: "))
+b=float(input("Entet Vbe: "))
+c=int (input("Enter Rb:"))
+d=int(input("Enter Re "))
+x=int(input ("Enter Ib"))
+y=int (input("Enter Beta value:"))
+z=int(input("Enter Rc:"))
+ 
+if c : 
+    x=(a-b)/c+(y+1)*d
+    Rb=c 
+
+else :    
+     Ib=x
+     Rb=(a-b)/x
+
+print ( "The value of Ib is :" ,x ) 
+print ( "The value of Ic is :" , Ic)
+print ( "The value of Rb is:" , c)
+print ( " The value of Vce is:",Vce )
