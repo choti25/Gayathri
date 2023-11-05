@@ -1,0 +1,15 @@
+a=int(input("Enter Vcc: "))
+b=float(input("Entet Vbe: "))
+x= int(input("Enter Ib"))
+y=int (input("Enter Beta value:"))
+c= int (input("Enter Rf:" ))
+d=int(input ("Enter Rc:"))
+z= int (input("Enter Re"))
+
+Ic  =  y * x
+Vce = a-Ic*( d+z)
+print ( "The value of Ib is :" ,x ) 
+print ( "The value of Ic is :" , Ic)
+print ( "The value of Rc is:" , d)
+print( "The value of Rf is:", c)
+print ( " The value of Vce is:",Vce )
